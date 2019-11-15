@@ -10,4 +10,4 @@ let makeContainer = () => {
   content;
 };
 
-ReactDOMRe.render(<GiphyGif />, makeContainer());
+ReactDOMRe.render(<App />, makeContainer());

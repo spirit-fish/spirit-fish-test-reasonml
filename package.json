@@ -5,7 +5,8 @@
     "build": "webpack",
     "start": "bsb -make-world -w -ws _ ",
     "clean": "bsb -clean-world",
-    "server": "moduleserve ./ --port 8000"
+    "server": "moduleserve ./ --port 8000",
+    "now-dev": "now dev dist"
   },
   "author": "",
   "license": "MIT",
@@ -13,6 +14,7 @@
     "@glennsl/bs-json": "^5.0.1",
     "@moox/bs-react-helmet": "^2.1.0",
     "bs-fetch": "^0.5.0",
+    "copy-webpack-plugin": "^5.0.5",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-helmet": "^5.2.1",

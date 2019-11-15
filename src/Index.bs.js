@@ -2,8 +2,8 @@
 
 var React = require("react");
 var ReactDom = require("react-dom");
+var App$SpiritFish = require("./components/App/App.bs.js");
 var Style$SpiritFish = require("./Style.bs.js");
-var GiphyGif$SpiritFish = require("./components/GiphyGif/GiphyGif.bs.js");
 
 var style = document.createElement("style");
 
@@ -17,7 +17,7 @@ function makeContainer(param) {
   return content;
 }
 
-ReactDom.render(React.createElement(GiphyGif$SpiritFish.make, { }), makeContainer(/* () */0));
+ReactDom.render(React.createElement(App$SpiritFish.make, { }), makeContainer(/* () */0));
 
 exports.style = style;
 exports.makeContainer = makeContainer;
